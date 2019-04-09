@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#b5bec4d2"
+    android:padding="10dp"
+    >
+
+    <ImageView
+        android:src="@drawable/adduser"
+        android:layout_width="wrap_content"
+
+        android:layout_height="150dp" />
+    <LinearLayout
+
+        android:id="@+id/llten"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="60dp"
+            android:src="@drawable/user"
+            android:layout_height="50dp" />
+
+        <EditText
+
+            android:hint="Tên liên lạc"
+            android:id="@+id/ed_tenll_sua"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="60dp"
+            android:src="@drawable/phone"
+            android:layout_height="50dp" />
+        <EditText
+            android:inputType="number"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/ed_sdt_sua"
+            android:hint="Số điện thoại" />
+    </LinearLayout>
+    <LinearLayout
+        android:padding="16dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="60dp"
+            android:src="@drawable/love"
+            android:layout_height="50dp" />
+        <CheckBox
+            android:layout_width="60dp"
+            android:id="@+id/cb_yeuthich_sua"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp" />
+        <ImageView
+            android:layout_marginLeft="30dp"
+            android:layout_width="60dp"
+            android:src="@drawable/group"
+            android:layout_height="50dp" />
+        <Spinner
+            android:id="@+id/spinner_sua"
+            android:layout_width="120dp"
+            android:layout_height="50dp">
+        </Spinner>
+    </LinearLayout>
+    <LinearLayout
+        android:padding="16dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btluulienlac"
+            android:text="Lưu"
+            android:backgroundTint="#00acc1"
+            style="@style/Widget.AppCompat.Button.Colored" />
+        <Button
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Quay lại"
+            android:id="@+id/quaylaisua"
+            android:backgroundTint="#00acc1"
+            style="@style/Widget.AppCompat.Button.Colored" />
+    </LinearLayout>
+
+</LinearLayout>

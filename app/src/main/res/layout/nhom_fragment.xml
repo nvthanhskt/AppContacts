@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list_nhom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v7.widget.RecyclerView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:id="@+id/fab_nhom"
+        android:layout_gravity="end|bottom"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/addgroup"
+        android:backgroundTint="#b77441" />
+    <include android:id="@+id/v_sua" layout="@layout/sua_nhom" android:visibility="invisible" android:layout_height="match_parent" android:layout_width="match_parent"/>
+    <include layout="@layout/them_nhom" android:id="@+id/them_nhom" android:visibility="invisible"></include>
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ll_goi"
+        android:title="Liên hệ" />
+    <item
+        android:id="@+id/ll_themyeuthich"
+        android:title="Thêm yêu thích" />
+    <item
+        android:id="@+id/ll_suaLL"
+        android:title="Sửa" />
+    <item
+        android:id="@+id/ll_xoaLL"
+        android:title="Xóa" />
+    <item
+        android:id="@+id/ll_chitiet"
+        android:title="Chi tiết" />
+
+</menu
+    >

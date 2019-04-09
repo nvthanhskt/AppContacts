@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/nbgr"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="10dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+   <ImageView
+       android:id="@+id/img_danhba"
+       android:layout_width="60dp"
+       android:layout_height="60dp"
+       android:src="@drawable/user"
+       />
+    <TextView
+
+        android:fontFamily="cursive"
+        android:textColor="#111"
+        android:text="Nguyễn Thành"
+        android:textSize="20dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/txt_tenLL"
+        android:layout_toRightOf="@id/img_danhba"
+        android:layout_width="280dp"
+        android:layout_height="35dp" />
+    <TextView
+        android:text="01699898176"
+        android:textSize="13dp"
+        android:layout_marginLeft="18dp"
+        android:layout_toRightOf="@id/img_danhba"
+        android:layout_below="@id/txt_tenLL"
+        android:id="@+id/txt_sdt"
+        android:layout_width="270dp"
+        android:layout_height="25dp" />
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:id="@+id/LL_menu"
+        android:src="@drawable/dots"
+        android:layout_toRightOf="@id/txt_tenLL"
+        android:layout_width="30dp"
+        android:layout_height="45dp" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
