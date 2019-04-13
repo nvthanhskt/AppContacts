@@ -1,10 +1,10 @@
 # AppContacts
-#Nguyễn Văn Thành
-Lớp : CNTT-K14E
-Mã sinh viên: DTC155D4802010082
+Họ tên sinh viên: Nguyễn Văn Thành <br/>
+Lớp : CNTT-K14E <br/>
+Mã sinh viên: DTC155D4802010082 <br/>
 
 <h1> Trang giao diện chính: </h2>
-<img src="https://nguyenthanh1002.000webhostapp.com/anh/dangky.png" alt="">
+<img src="https://nguyenthanh1002.000webhostapp.com/anh/danhba.png" alt="">
 
 
 
