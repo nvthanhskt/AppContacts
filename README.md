@@ -3,7 +3,7 @@ Họ tên sinh viên: Nguyễn Văn Thành <br/>
 Lớp : CNTT-K14E <br/>
 Mã sinh viên: DTC155D4802010082 <br/>
 
-Tài khoản đăng nhập demo: 01699898175 <br/> password: 12
+Tài khoản đăng nhập demo: 01699898175 <br/> Mật khẩu: 12
 
 
 <h1> Trang giao diện chính: </h2>
