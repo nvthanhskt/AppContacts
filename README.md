@@ -8,7 +8,7 @@ Mã sinh viên: DTC155D4802010082 <br/>
 
 
 
-<img src="https://nguyenthanh1002.000webhostapp.com/anh/menu_lenhe.png" alt="">
+<img src="https://nguyenthanh1002.000webhostapp.com/anh/menu_lienhe.png" alt="">
 <hr/>
 <h1> Trang giao yêu thích: </h2>
 <img src="https://nguyenthanh1002.000webhostapp.com/anh/yeuthich.png" alt="">
